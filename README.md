@@ -20,7 +20,7 @@ Google Colab with NVCC Compiler
 pip install nvcc4jupyter
 !nvcc vectorAdd.cu -o vectorAdd
 %load_ext nvcc4jupyter
-
+ !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 ```
 
 ## PROCEDURE:
