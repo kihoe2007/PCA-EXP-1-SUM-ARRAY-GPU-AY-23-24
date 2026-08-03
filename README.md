@@ -16,8 +16,12 @@ To perform vector addition on host and device.
 Hardware – PCs with NVIDIA GPU & CUDA NVCC
 Google Colab with NVCC Compiler
 
+```
+pip install nvcc4jupyter
+!nvcc vectorAdd.cu -o vectorAdd
+%load_ext nvcc4jupyter
 
-
+```
 
 ## PROCEDURE:
 
